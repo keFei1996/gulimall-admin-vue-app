@@ -369,8 +369,8 @@ export default {
         brandId: "",
         weight: "",
         publishStatus: 0,
-        decript: [], //商品详情
-        images: [], //商品图集，最后sku也可以新增
+        decript: ["https://gulimall-kefei.oss-cn-shanghai.aliyuncs.com/2021-11-11/45f731c8-4af5-4fe0-80cf-bfa0f93f86d6_下载.jpg"], //商品详情
+        images: ["https://gulimall-kefei.oss-cn-shanghai.aliyuncs.com/2021-11-11/45f731c8-4af5-4fe0-80cf-bfa0f93f86d6_下载.jpg"], //商品图集，最后sku也可以新增
         bounds: {
           //积分
           buyBounds: 0,
@@ -458,13 +458,13 @@ export default {
         brandId: "",
         weight: "",
         publishStatus: 0,
-        decript: [], 
-        images: [], 
+        decript: [],
+        images: [],
         bounds: {
           buyBounds: 0,
           growBounds: 0
         },
-        baseAttrs: [], 
+        baseAttrs: [],
         skus: []
       };
     },
